@@ -13,6 +13,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: SplashScreen(),
+      routes: {
+        'homescreen' :(context) => AmazonHomePage(),
+    },
       // Navigate to the SplashScreen widget
     );
   }
